@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formatações</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Outras formatações</h1>
+            <p>Provavelmente você ja viu ou usou uma desssas canetas marca texto em seu dia a dia. Elas servem para você marcar uma parte de um texto na qual quer dar uma ênfase descomunal, ja que se trata de um <mark>trecho muito valioso</mark> para você, assim como acabamos dde fazer.</p>
+            <p>Para fazer essas marcas em HTML5, usamos a tag<mark>...</mark>para delimitar o texto que queremos demarcar, como se estivéssemos usando uma caneta marcador.</p>
+        <h2>Big morreu, mas o small ainda sobrevive</h2>
+            <p>Tem certas coisas que simplismente não são fáceis de entender. A tag (big) que deixava o texto maior está depreciada pelo HTML5, mas tag (small) que deixava o <small> menor segue firme e forte</small></p>
+        <h2>Texto deletado</h2>
+            <p>Antigamente existia a tag (strike), que hoje tambem está em depreciada.No lugar entrou a tag <del>que significa o texto está ali, pode ser lido, mas deve ser desconsiderado</del>pelo leitor.</p>
+        <h2>Texto inserido</h2>
+            <p>O texto inserido é exatamente o oposto do <del>texto deletado</del> que vimos anteriormente. Neste caso, se colocarmos a tag <ins>estamos dizendo que o texto aqui devemos prestar atenção nele.</ins>/p>
+        <h2>Código-fonte / Pré-formatação</h2>
+            <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+            <pre>
+               <code>
+                num = int(input('Digite um número'))
+                if num % 2 == 0:
+                 print(f'O número {num} é PAR')
+                else:
+                 print(f'O número {num} é ÍMPAR')
+                print('Fim do programa')
+               </code>
+            </pre>
+    <h2>Citações simples</h2>
+        <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citações completas</h2>
+        <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+        <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&ved=0ahUKEwjH5-PevNboAhVNIbkGHcoxCOgQ6AEIOjAC#v=onepage&q=HTML&f=false">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+        </blockquote>
+    <h2>Abreviações</h2>
+        <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto invertido</h2>
+        <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+    </body>
+</html>
