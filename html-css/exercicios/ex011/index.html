@@ -13,5 +13,16 @@
         <source media="(max-width: 1050px)" srcset="./img/foto-m.png" type="image/png">
         <img src="./img/foto-g.png" alt="imagem flexivel">
     </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+     <!-- <audio src="media/happy-mistake.mp3" controls ></audio>  Formatos disponiveis MP3  WAV OGG -->
+    <audio preload="auto" autoplay controls>
+        <source src="./media/Bobby-Richards.mp3" type="audio/mp3">
+        <source src="./media/happy-mistake.ogg" type="audio/ogg">
+        <source src="./media/Bobby-Richards.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não é suportado. <a href="./media/Bobby-Richards.mp3">clique aqui para baixar o arquivo MP3</a></p>  
+    </audio>
+
 </body>
 </html>
